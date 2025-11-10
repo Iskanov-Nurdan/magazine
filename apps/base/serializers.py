@@ -6,12 +6,12 @@ class BaseModelSerializer(serializers.ModelSerializer):
         model = BaseModel
         fields = '__all__'
 
-class ProductSerializer(serializers.ModelSerializer):
+class ProducttSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
         fields = '__all__'
 
-class AboutSerializer(serializers.ModelSerializer):
+class AbouttSerializer(serializers.ModelSerializer):
     class Meta:
         model = About
         fields = '__all__'

@@ -51,6 +51,8 @@ INSTALLED_APPS = [
     'apps.breand',
     'apps.about',
     'apps.contact',
+    'apps.prices',
+    'apps.orders',
 ]
 
 AUTH_USER_MODEL = 'register.User'
